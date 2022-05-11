@@ -1,4 +1,4 @@
 FROM tomcat:8
-LABEL app=java-web
+LABEL web=java-web
 COPY target/*.war /usr/local/tomcat/webapps/myweb.war
 
